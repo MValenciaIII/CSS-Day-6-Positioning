@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: darkslateblue;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    justify-self: center;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FILL IN STYLING */
+
+.boxStatic {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.boxRelative {
+    position: relative;
+    background-color: lightgreen;
+    top: 10px;
+    right: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Absolute Styling  */
+
+.container {
+    /* This makes the container a "positioned ancestor" */
+    position: relative;
+    height: 1000px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.boxAbsolute {
+    position: absolute;
+    background-color: pink;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    z-index: 1;
+}
+

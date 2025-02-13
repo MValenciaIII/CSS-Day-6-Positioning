@@ -1,0 +1,44 @@
+.boxStatic {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.boxRelative {
+    position: relative;
+    background-color: lightgreen;
+    top: 10px;
+    right: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Absolute Styling  */
+
+.container {
+    /* This makes the container a "positioned ancestor" */
+    position: relative;
+    height: 1000px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.boxAbsolute {
+    position: absolute;
+    background-color: pink;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    z-index: 1;
+}
+
+/* Fixed styling */
+
+.boxFixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+    z-index: 2;
+}

@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    height: 400px;
+    background-color: darkslategray;
+}
+
+.absoluteBox {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: azure;
+}
